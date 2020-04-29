@@ -19,7 +19,7 @@ START-OF-SELECTION.
 *
 CLASS lcl_sum IMPLEMENTATION.
   METHOD SUM.
-    rv_sum = iv_1 * iv_1.     "sum
+    rv_sum = iv_1 + iv_1.     "sum testing.
     ENDMETHOD.
 ENDCLASS.                    "lcl_sum IMPLEMENTATION
 
